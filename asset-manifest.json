@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/navlix/static/css/main.c8648388.chunk.css",
-    "main.js": "/navlix/static/js/main.27e618d3.chunk.js",
-    "main.js.map": "/navlix/static/js/main.27e618d3.chunk.js.map",
+    "main.js": "/navlix/static/js/main.104b71bc.chunk.js",
+    "main.js.map": "/navlix/static/js/main.104b71bc.chunk.js.map",
     "runtime-main.js": "/navlix/static/js/runtime-main.b89a3882.js",
     "runtime-main.js.map": "/navlix/static/js/runtime-main.b89a3882.js.map",
     "static/js/2.8348e4f9.chunk.js": "/navlix/static/js/2.8348e4f9.chunk.js",
     "static/js/2.8348e4f9.chunk.js.map": "/navlix/static/js/2.8348e4f9.chunk.js.map",
     "index.html": "/navlix/index.html",
-    "precache-manifest.6f32d70ea471bb925f47a261fbcc98b3.js": "/navlix/precache-manifest.6f32d70ea471bb925f47a261fbcc98b3.js",
+    "precache-manifest.c8c277fb81801d7188a4f597147775ef.js": "/navlix/precache-manifest.c8c277fb81801d7188a4f597147775ef.js",
     "service-worker.js": "/navlix/service-worker.js",
     "static/css/main.c8648388.chunk.css.map": "/navlix/static/css/main.c8648388.chunk.css.map",
     "static/js/2.8348e4f9.chunk.js.LICENSE.txt": "/navlix/static/js/2.8348e4f9.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.b89a3882.js",
     "static/js/2.8348e4f9.chunk.js",
     "static/css/main.c8648388.chunk.css",
-    "static/js/main.27e618d3.chunk.js"
+    "static/js/main.104b71bc.chunk.js"
   ]
 }
