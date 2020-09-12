@@ -93,10 +93,10 @@ class KorLogin extends React.Component {
           </ul>
           <ul className="findAccount">
             <li>
-              <a href="/">아이디 찾기</a>
+              <a href="#">아이디 찾기</a>
             </li>
             <li>
-              <a href="/">비밀번호 찾기</a>
+              <a href="#">비밀번호 찾기</a>
             </li>
             <li>
               <Link to="/login/signup">회원가입</Link>

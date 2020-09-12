@@ -93,10 +93,10 @@ class EngLogin extends React.Component {
           </ul>
           <ul className="findAccount">
             <li>
-              <a href="/">Find ID</a>
+              <a href="#">Find ID</a>
             </li>
             <li>
-              <a href="/">Find password</a>
+              <a href="#">Find password</a>
             </li>
             <li>
               <Link to="/login/signup">Sign up</Link>
