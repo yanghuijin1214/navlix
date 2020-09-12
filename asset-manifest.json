@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/navlix/static/css/main.c8648388.chunk.css",
+    "main.js": "/navlix/static/js/main.c4e5d831.chunk.js",
+    "main.js.map": "/navlix/static/js/main.c4e5d831.chunk.js.map",
+    "runtime-main.js": "/navlix/static/js/runtime-main.b89a3882.js",
+    "runtime-main.js.map": "/navlix/static/js/runtime-main.b89a3882.js.map",
+    "static/js/2.8348e4f9.chunk.js": "/navlix/static/js/2.8348e4f9.chunk.js",
+    "static/js/2.8348e4f9.chunk.js.map": "/navlix/static/js/2.8348e4f9.chunk.js.map",
+    "index.html": "/navlix/index.html",
+    "precache-manifest.c8fd19cb46c426cdb1c3f539fa3aa0b5.js": "/navlix/precache-manifest.c8fd19cb46c426cdb1c3f539fa3aa0b5.js",
+    "service-worker.js": "/navlix/service-worker.js",
+    "static/css/main.c8648388.chunk.css.map": "/navlix/static/css/main.c8648388.chunk.css.map",
+    "static/js/2.8348e4f9.chunk.js.LICENSE.txt": "/navlix/static/js/2.8348e4f9.chunk.js.LICENSE.txt",
+    "static/media/addimage1.png": "/navlix/static/media/addimage1.1c1bce4f.png",
+    "static/media/addimage2.png": "/navlix/static/media/addimage2.da0b982c.png",
+    "static/media/addimage3.png": "/navlix/static/media/addimage3.9e3e0151.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b89a3882.js",
+    "static/js/2.8348e4f9.chunk.js",
+    "static/css/main.c8648388.chunk.css",
+    "static/js/main.c4e5d831.chunk.js"
+  ]
+}
