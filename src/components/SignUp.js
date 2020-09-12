@@ -7,8 +7,7 @@ class SignUp extends React.Component {
       <div>
         <form
           id="textarea"
-          action=""
-          method="post"
+          action="https://yanghuijin1214.github.io/navlix/"
           onSubmit={(e) => {
             const signUp = "signUp";
             const signUpList = [];
