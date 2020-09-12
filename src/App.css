@@ -1,0 +1,531 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: #f5f6f8;
+  letter-spacing: -1px;
+}
+li {
+  list-style: none;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.loginWrap {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.selectLanguage,
+.App {
+  width: 450px;
+}
+.selectLanguage {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  margin-left: 280px;
+}
+.selectLanguage select {
+  padding: 5px 22px 10px 5px;
+  font-size: 11px;
+  border: 1px solid #ddd;
+}
+
+.App {
+  margin-top: 50px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+  border: 1px black;
+}
+
+.inputForm {
+  overflow: hidden;
+}
+.input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 8px;
+  background-color: #fff;
+  font-size: 15px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+.loginBtn {
+  width: 100%;
+  margin-top: 3px;
+  padding: 15px 0;
+  border: 1px solid #08bb59;
+  background-color: #03c75b;
+  font-size: 16px;
+  color: #fff;
+  box-sizing: border-box;
+}
+.fas {
+  color: #03c75b;
+}
+.far {
+  color: gray;
+}
+#login_success {
+  font-size: 20px;
+  color: #089749;
+  font-weight: 550;
+}
+.statewrap {
+  margin-bottom: 60px;
+}
+.login_stay {
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+.login_stay i {
+  font-size: 1.2rem;
+  margin-right: 5px;
+}
+.login_stay,
+.ipSecurity {
+  padding: 18px 0;
+}
+#IP {
+  margin-left: 10px;
+}
+.login_stay {
+  float: left;
+}
+.ipSecurity {
+  float: right;
+}
+.line {
+  border: 0;
+  border-top: 1px solid #ddd;
+}
+
+.easyLogin {
+  margin: 40px 0 20px;
+  text-align: center;
+  font-size: 20px;
+}
+.easyWayBtns {
+  overflow: hidden;
+}
+.qrCode,
+.disposable {
+  width: 48%;
+  float: left;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #08bb59;
+  box-sizing: border-box;
+}
+.qrCode {
+  margin-right: 2%;
+}
+.qrCode a,
+.disposable a {
+  display: block;
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.findAccount {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin: 12px 0 50px;
+}
+.findAccount li {
+  float: left;
+}
+.findAccount li a {
+  margin: 0 10px;
+  font-size: 14px;
+  color: #999;
+}
+.findAccount li::after {
+  content: "";
+  display: inline-block;
+  height: 12px;
+  border-right: 1px solid #ccc;
+}
+.findAccount li:last-child::after {
+  border: 0;
+}
+
+.advertiseWrap {
+  width: 100%;
+  height: 120px;
+  background-color: #fff;
+}
+
+.footer {
+  margin: 40px 0 20px 0;
+  padding-top: 30px;
+}
+.footer ul {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.footer ul li {
+  float: left;
+}
+.footer ul li a {
+  margin: 0 7px;
+  font-size: 12px;
+  letter-spacing: 0;
+}
+.footer ul li::after {
+  content: "";
+  display: inline-block;
+  height: 10px;
+  border-right: 1px solid #bbb;
+}
+.footer ul li:last-child::after {
+  border: 0;
+}
+.footer small {
+  display: flex;
+  justify-content: center;
+  margin: 8px 0;
+}
+.footer small img {
+  width: 60px;
+  height: 13px;
+}
+.footer small address {
+  margin-left: 4px;
+  font-size: 9px;
+  font-style: normal;
+  letter-spacing: 0.5px;
+}
+.footer small address b {
+  letter-spacing: 0.5px;
+}
+.footer small address b span {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* QR code, disposable */
+.qrcodeWrap,
+.disposableWrap {
+  width: 450px;
+  height: 450px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+.disposableWrap {
+  height: 305px;
+}
+.qrcodeWrap > *,
+.disposableWrap > * {
+  background: #fff;
+}
+.qrcodeWrap h2,
+.disposableWrap h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 21px;
+}
+.qrcode {
+  width: 220px;
+  height: 220px;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+}
+.qrcode1 {
+  width: 220px;
+  height: 220px;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  background: url(./images/qrCode1.png);
+}
+.qrcode2 {
+  width: 220px;
+  height: 220px;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  background: url(./images/qrCode2.png);
+}
+.qrcode3 {
+  width: 220px;
+  height: 220px;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  background: url(./images/qrCode3.png);
+}
+.qrcodeWrap p,
+.disposableWrap p {
+  text-align: center;
+  line-height: 30px;
+  font-size: 15px;
+}
+#qr_number {
+  font-size: 30px;
+  background: #fff;
+  color: #666;
+}
+.qr_exit,
+.disposable_exit,
+.backToHome {
+  display: block;
+  width: 450px;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  outline: none;
+  border: 1px solid #ddd;
+  line-height: 50px;
+  background: #fff;
+  text-align: center;
+}
+#qr_time {
+  color: #03c75b;
+  font-size: 20px;
+  font-weight: bolder;
+  background: #fff;
+}
+.disposableInput {
+  display: block;
+  width: 420px;
+  height: 50px;
+  margin: 20px auto 0;
+  padding: 0 14px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+.disposableLogin {
+  display: block;
+  width: 420px;
+  height: 50px;
+  margin: 10px auto 0;
+  background: #03c75b;
+  border: 1px solid #08bb59;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+/*modal*/
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+.modal {
+  margin: 0 auto;
+  background: white;
+  padding: 24px 16px;
+  border-radius: 4px;
+  width: 320px;
+  align-items: center;
+  justify-content: center;
+}
+.modal-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.modal p {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 16px;
+  background-color: #fff;
+}
+.close-wrapper {
+  margin: 0 auto;
+  text-align: center;
+  width: 60px;
+  height: 25px;
+  background-color: #08bb59;
+}
+
+#close {
+  background-color: #08bb59;
+  font-weight: bolder;
+  color: #fff;
+}
+
+/* Latest */
+.pageNum {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#ul li {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  float: left;
+  margin: 50px 20px;
+  font-weight: 900;
+  color: #464545;
+}
+#ul .active li {
+}
+.latest_title {
+  margin: 50px 20px 10px;
+}
+.contentsWrap {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.content {
+  position: relative;
+  width: 150px;
+  height: 320px;
+  margin: 0 30px;
+}
+.imgsrc {
+  width: 100%;
+  height: 220px;
+}
+/* Home */
+.loading {
+  position: absolute;
+  top: 12%;
+  left: 46%;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+.genreWrap {
+  margin: 50px 0;
+}
+.genreWrap h1 {
+  margin-left: 10px;
+}
+.forBtn {
+  position: relative;
+}
+
+.genre {
+  scroll-behavior: smooth;
+  display: flex;
+  overflow-x: hidden;
+  width: 100%;
+  overflow-x: scroll;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.genre_contents {
+  position: relative;
+  flex-shrink: 0;
+  width: 150px;
+  height: 320px;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+.btn {
+  opacity: 0.3;
+  position: absolute;
+  top: 27%;
+  font-size: 50px;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+
+.left {
+  left: 0%;
+  z-index: 1;
+}
+.right {
+  right: 0%;
+  z-index: 1;
+}
+
+/* movie_header */
+.headerWrap {
+  border-bottom: 3px solid #b1b1b1;
+  box-shadow: 1px 1px 1px rgb(187, 187, 187);
+  margin-bottom: 10px;
+}
+.movie_nav,
+.header {
+  display: flex;
+}
+.header .logo img {
+  width: 100px;
+  margin: 20px 30px 0px 20px;
+}
+.movie_nav li {
+  margin-left: 20px;
+  line-height: 70px;
+}
+.link {
+  font-weight: 900;
+  color: #464545;
+  text-shadow: 0px 1px 1px rgb(131, 126, 126);
+}
+
+/* select option */
+.genre_select {
+  position: absolute;
+  top: 26px;
+  left: 440px;
+
+  border: none;
+  border-bottom: 1px solid rgba(102, 102, 102, 0.747);
+}
+/* search */
+.searchWrap {
+  position: absolute;
+  top: 26px;
+  right: 10px;
+  height: 40px;
+}
+.searchBtn {
+  width: 20px;
+  height: 20px;
+  border: none;
+  outline: none;
+  margin-bottom: -5px;
+  cursor: pointer;
+}
+.searchText {
+  margin: 0 5px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #000;
+  transition: all 0.5s;
+}
+
+/* mylist */
+.fa-heart {
+  position: absolute;
+  right: 2%;
+  top: 188px;
+  display: none;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  color: #03c75b;
+  font-size: 30px;
+}
+.genre_contents:hover .fa-heart {
+  display: block;
+}
+.content:hover .fa-heart {
+  display: block;
+}
