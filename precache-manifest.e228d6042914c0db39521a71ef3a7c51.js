@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a7872ed585fb0ab1c7ba4606a9e5f931",
+    "revision": "bdb56d0154892679ff8d0f5edf527cf4",
     "url": "/navlix/index.html"
   },
   {
-    "revision": "6586ae7b4d94d84135f0",
+    "revision": "b6be4c59c35b5ed88e7b",
     "url": "/navlix/static/css/main.c8648388.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/navlix/static/js/2.8348e4f9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6586ae7b4d94d84135f0",
-    "url": "/navlix/static/js/main.c7927098.chunk.js"
+    "revision": "b6be4c59c35b5ed88e7b",
+    "url": "/navlix/static/js/main.63eef380.chunk.js"
   },
   {
     "revision": "9f186743af337180e467",
