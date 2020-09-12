@@ -5,7 +5,7 @@ import { HashRouter, Route } from "react-router-dom";
 import Movie_App from "./movie_app/Movie_App";
 class App extends React.Component {
   render() {
-    window.location.href = "/login";
+    window.location.href = "https://yanghuijin1214.github.io/navlix/#/login";
     return (
       <HashRouter>
         <Route path="/login" component={Login} />

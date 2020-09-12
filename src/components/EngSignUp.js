@@ -7,7 +7,7 @@ class EngSignUp extends React.Component {
       <div>
         <form
           id="textarea"
-          action="/login"
+          action=""
           method="post"
           onSubmit={(e) => {
             const signUp = "signUp";
